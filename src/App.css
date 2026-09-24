@@ -18,11 +18,12 @@ body {
       #d8dcff 50%,
       #f5c9f4 100%
     );
+
 }
 
 main {
   width: min(100% - 64px, 800px);
-  margin: 40px auto;
+  margin: auto;
 }
 .loading {
   width: 100%;
