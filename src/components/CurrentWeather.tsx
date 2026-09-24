@@ -33,7 +33,7 @@ function CurrentWeather({ current, units, hourly }: CurrentWeatherProps) {
         </div>
 
         <p className='tem-num'>
-          {current.temperature_2m}{units.temperature_2m}
+          {current.temperature_2m}<span>{units.temperature_2m}</span>
         </p>
         <p className='tem-text'>
           {weatherInfo.text}
