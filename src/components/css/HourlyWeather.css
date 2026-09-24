@@ -1,0 +1,41 @@
+.hour-section {
+    padding-bottom: 80px;
+}
+.title {
+    font-size: 20px;
+    padding-top: 40px;
+    color: #000;
+}
+.date {
+    font-size: 18px;
+    color: dimgray;
+}
+.time-box {
+    width: 100%;
+    overflow-x: scroll;
+}
+.time-box::-webkit-scrollbar{
+    display: none;
+}
+.time-box ul {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+}
+.time-box ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.time {
+    color: black;
+}
+.icon {
+
+}
+.tem {
+    color: cornflowerblue;
+}

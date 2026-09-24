@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      #dcdcff 0%,
+      transparent 55%
+    ),
+    linear-gradient(
+      135deg,
+      #f3dcff 0%,
+      #d8dcff 50%,
+      #f5c9f4 100%
+    );
+}
+
+main {
+  width: min(100% - 64px, 800px);
+  margin: 40px auto;
+}
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
